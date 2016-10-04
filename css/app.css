@@ -5,8 +5,17 @@ body {
 #header-container {
   background-color: #FFCF00;
   color: #fff;
+}/* 
+
+.col-xs-3 {
+  border: 1px solid red;
 }
 
-#header-container .container-fluid {
-  border: 1px solid black;
+
+.row {
+  border: 1px solid blue;
 }
+
+.columna {
+  border: 1px solid red;
+} */
