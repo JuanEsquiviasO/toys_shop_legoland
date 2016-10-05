@@ -1,9 +1,15 @@
 body {
   font-family: 'Russo One', sans-serif;
+  height: none;
 }
 
 #header-container {
   background-color: #FFCF00;
+  color: #fff;
+}
+
+#header-container .login,
+#header-container .navbar-toggler {
   color: #fff;
 }
 
@@ -22,4 +28,8 @@ body {
 
 input.form-control:focus {
   border-color: #FFCF00;
+}
+
+#search-bar {
+  padding: 1em;
 }
