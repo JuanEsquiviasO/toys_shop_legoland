@@ -3,7 +3,8 @@ body {
   height: none;
 }
 
-#header-container {
+#header-container,
+#info-container {
   background-color: #FFCF00;
   color: #fff;
 }
@@ -23,7 +24,7 @@ body {
 }
 
 .btn.btn-lego:hover {
-  background-color: #FFCF50;
+  background-color: #FFCF00;
 }
 
 input.form-control:focus {
@@ -36,4 +37,13 @@ input.form-control:focus {
 
 #productosCarousel img {
   margin: 0 auto;
+}
+
+#info-container h4 {
+  margin: 1em 0;
+}
+
+#info-container img {
+  margin: 0 auto;
+  margin-top: 2em;
 }
