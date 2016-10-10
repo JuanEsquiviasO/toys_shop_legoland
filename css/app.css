@@ -99,9 +99,22 @@ input.form-control:focus {
 }
 
 @media (max-width: 768px) {
-  #productos-container .filtros-toggle {
-    margin-bottom: 1em;
+  .listado-productos {
+    margin-top: 2em;
   }
+
+  .listado-productos .card-img-top {
+    width: 100%;
+  }
+}
+
+#paginator-container .page-item:not(.active):not(.disabled) .page-link {
+  color: black;
+}
+
+#paginator-container .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+  background-color: #FFCF00;
+  border-color: #FFCF00;
 }
 
 
