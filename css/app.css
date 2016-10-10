@@ -84,3 +84,33 @@ input.form-control:focus {
 #breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
   content: ">";
 }
+
+#productos-container {
+  margin-bottom: 2em;
+}
+
+#productos-container .list-group-item-action.active { /* change color default bootstrap */
+  background-color: #FFCF00;
+  border-color: #FFCF00; 
+}
+
+#productos-container .list-group+.list-group {
+  margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+  #productos-container .filtros-toggle {
+    margin-bottom: 1em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
